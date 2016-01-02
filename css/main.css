@@ -1,0 +1,159 @@
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MyriadPro-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadProBold';
+	src: url('fonts/MyriadPro-Semibold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadProIt';
+	src: url('fonts/MyriadPro-It.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: MyriadPro, Arial, Tahoma;
+}			
+
+header{
+	background-image: url('../images/logo3.png'); 
+	background-position: center;
+	background-size: 150px;
+	background-repeat: no-repeat; 
+	background-color: #F5F5F5;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	padding-top: 0px;	
+	display: block;
+	z-index: 1000;
+}
+
+header .Link{
+	width: 150px;
+	height: 50px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+#content{
+	margin-top: 60px;
+}
+
+#content table{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+table tr th{
+	font-family: MyriadProBold;
+	font-weight: normal;
+}
+
+#content a, #content a:visited{
+	text-decoration: none;
+	color: blue;
+}
+
+#content a:hover{
+	color: orange;
+}
+
+#content #areas{
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	width: 500px;
+	height: 300px;
+}
+
+.theory{ 
+	background-image: url('../images/theory.png'); 
+	background-position: center;
+	background-size: 50px ;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+.theory a{
+	padding-top: 80px;
+	width: 100px;
+	height: 50px;
+	display: block;
+}
+
+.practice{ 
+	background-image: url('../images/practice.png'); 
+	background-position: center;
+	background-size: 50px ;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	float:right;
+}
+
+.practice a{
+	padding-top: 80px;
+	width: 100px;
+	height: 50px;
+	display: block;
+}
+
+.ranking{
+	background-image: url('../images/ranking.png'); 
+	background-position: center;
+	background-size: 50px ;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 100px;	
+	clear:both;
+	margin:0 auto 0 auto;
+}
+
+.ranking a{
+	padding-top: 80px;
+	width: 150px;
+	height: 50px;
+	display: block;
+}
+
+#ranking h2{
+	font-family: MyriadProBold;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: blue;
+}
+
+table#ranking-board{
+	width: 230px;
+	border:none;
+	border-collapse: collapse;
+}
+
+#ranking-board tr td, #ranking-board tr th{
+	border-bottom: 1px solid #cdcdcd;
+	padding: 5px;
+}
+
