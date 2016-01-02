@@ -1,0 +1,285 @@
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MyriadPro-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadProBold';
+	src: url('fonts/MyriadPro-Semibold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadProIt';
+	src: url('fonts/MyriadPro-It.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: MyriadPro, Arial, Tahoma;
+}			
+
+header{
+	background-image: url('../images/logo3.png'); 
+	background-position: 10px 10px;
+	background-size: 110px;
+	background-repeat: no-repeat; 
+	background-color: #F5F5F5;
+	height: 35px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	padding-top: 10px;	
+	display: block;
+	z-index: 1000;
+}
+
+header .Link{
+	width: 150px;
+	height: 30px;
+	display: block;
+	float: left;
+}
+
+a, a:visited{
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover{
+	color: orange;
+}
+
+.marks{
+	color: red;
+}
+#profile{
+	float: right;
+	margin-right: 10px;
+}
+
+#content{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+}
+
+#content h2{
+	font-family: MyriadProBold;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: blue;
+}
+
+#content table.large{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#content table.small{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+table tr th{
+	font-family: MyriadProBold;
+	font-weight: normal;
+}
+
+#content #left{
+	float:left;
+	width: 60%;
+	border-right: 1px solid #cdcdcd;
+}
+
+#content #right{
+	float:right;
+	width: 39%;
+}
+
+#code{
+	width:500px; 
+	height: 200px;
+	color: blue;
+	padding: 5px;
+}
+
+#result{
+	width: 500px; 
+	min-height: 90px;
+	color: orange;
+	border: 1px solid #3498db;
+	padding: 5px;
+}
+
+#output{
+	width: 300px; 
+	min-height: 300px;
+	color: orange;
+	border: 1px solid orange;
+	margin: 5px;
+	padding: 5px;
+}
+
+.error{
+	color: red;
+}
+
+.success{
+	color: blue;
+}
+
+.btn {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 13px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
+.btn2{
+	background: #FF6600;
+	width: 100px;
+}
+
+.btn2:hover{
+	background: #FF9933;
+}
+
+.btn-dis, .btn-dis:hover{
+	background: #cdcdcd;
+}
+
+btn3{
+	background: #FF6600;
+	width: 100px;
+}
+
+.btn3:hover{
+	background: #FF9933;
+}
+
+.error{
+	color:red;
+}
+
+#exercise{
+	list-style-type: none;	
+	float: right;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#exercise li{
+	display: inline;
+	padding-right: 20px;
+	float:left;
+	color: #cdcdcd;
+}
+
+#exercise li a, #exercise li a:visited{
+	text-decoration: none;
+	color: green;
+}
+
+#exercise li a:hover{
+	color: orange;
+}
+
+#exercise-pane{
+	border-bottom:1px solid #cdcdcd;
+	padding:5px 10px 5px 10px;
+	height: 40px;
+}
+
+#exercise li p{
+	width: 130px;
+	padding: 0;
+	margin:0;
+	font-size: 12px;
+	color: blue; 
+}
+
+.question{
+	color: #0000ff;
+	text-align: center;
+}
+
+.testing-res{
+	border-collapse: collapse;
+	border:none;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0px;
+	color: blue;
+}
+
+.testing-res tr.header{
+	background-color: #F5F5F5;
+}
+
+.testing-res .fail{
+	color:red;
+}
+.testing-res tr td{
+	min-width: 30px;
+	border-bottom:1px solid #cdcdcd;
+	padding:5px;
+	text-align: center;	
+}
+
+.testing-res .fail span{
+	background-image: url('../images/fail.png'); 
+	background-position: 5px 0px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 20px; 
+	display: block;
+}
+.testing-res .pass span{
+	background-image: url('../images/pass.png'); 
+	background-position: 5px 0px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 20px; 
+	display: block;
+}
+
+
+
+

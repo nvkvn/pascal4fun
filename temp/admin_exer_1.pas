@@ -1,0 +1,1 @@
+program Exer; begin 	(* Viết code ở đây *) end.															
